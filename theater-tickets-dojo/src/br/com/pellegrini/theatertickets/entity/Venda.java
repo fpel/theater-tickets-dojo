@@ -38,11 +38,14 @@ public class Venda {
 
         //Verifica se eh estudante
         if (tipo.equals(TipoIngressoEnum.ESTUDANTE)) {
-            
-        } else {
-            valorVenda = (ingresso.getValor() - (ingresso.getValor() * desconto.getPercentual() / 100));
+            //Se apresentou a carteirinha e eh dia de semana
+            if (apresentaCarteira && (data.get(Calendar.DAY_OF_WEEK) <= Calendar.FRIDAY || data.get(Calendar.DAY_OF_WEEK) >= Calendar.MONDAY)) {
+                desconto = new Desconto();
+                desconto.setPercentual(35);
+            }
         }
 
+        valorVenda = (ingresso.getValor() - (ingresso.getValor() * desconto.getPercentual() / 100));
 
 
         System.out.println(ingresso.toString());
