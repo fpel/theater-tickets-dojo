@@ -5,6 +5,7 @@ import br.com.pellegrini.theatertickets.util.DescontoUtil;
 import br.com.pellegrini.theatertickets.util.IngressoUtil;
 import java.util.Calendar;
 import java.util.List;
+import java.util.Objects;
 
 /**
  *
@@ -18,6 +19,7 @@ public class Venda {
     private Calendar data;
     private TipoIngressoEnum tipo;
     private boolean apresentaCarteira = Boolean.FALSE;
+    private float valorVenda = 0;
 
     public Venda() {
     }
@@ -32,7 +34,6 @@ public class Venda {
 
    
     public void vender() {
-        float valorVenda = 0;
         buscarIngresso();
         buscarDesconto();
 
@@ -46,11 +47,6 @@ public class Venda {
         }
 
         valorVenda = (ingresso.getValor() - (ingresso.getValor() * desconto.getPercentual() / 100));
-
-
-        System.out.println(ingresso.toString());
-        System.out.println(desconto.toString());
-        System.out.println("Valor venda:" + valorVenda);
     }
     
     
@@ -74,6 +70,93 @@ public class Venda {
                 }
             }
         }
+    }
+
+    @Override
+    public int hashCode() {
+        int hash = 3;
+        return hash;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final Venda other = (Venda) obj;
+        if (this.apresentaCarteira != other.apresentaCarteira) {
+            return false;
+        }
+        if (Float.floatToIntBits(this.valorVenda) != Float.floatToIntBits(other.valorVenda)) {
+            return false;
+        }
+        if (!Objects.equals(this.ingresso, other.ingresso)) {
+            return false;
+        }
+        if (!Objects.equals(this.desconto, other.desconto)) {
+            return false;
+        }
+        if (!Objects.equals(this.data.get(Calendar.DAY_OF_WEEK), other.data.get(Calendar.DAY_OF_WEEK))) {
+            return false;
+        }
+        if (this.tipo != other.tipo) {
+            return false;
+        }
+        return true;
+    }
+
+    public Ingresso getIngresso() {
+        return ingresso;
+    }
+
+    public void setIngresso(Ingresso ingresso) {
+        this.ingresso = ingresso;
+    }
+
+    public Desconto getDesconto() {
+        return desconto;
+    }
+
+    public void setDesconto(Desconto desconto) {
+        this.desconto = desconto;
+    }
+
+    public Calendar getData() {
+        return data;
+    }
+
+    public void setData(Calendar data) {
+        this.data = data;
+    }
+
+    public TipoIngressoEnum getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(TipoIngressoEnum tipo) {
+        this.tipo = tipo;
+    }
+
+    public boolean isApresentaCarteira() {
+        return apresentaCarteira;
+    }
+
+    public void setApresentaCarteira(boolean apresentaCarteira) {
+        this.apresentaCarteira = apresentaCarteira;
+    }
+
+    public float getValorVenda() {
+        return valorVenda;
+    }
+
+    public void setValorVenda(float valorVenda) {
+        this.valorVenda = valorVenda;
     }
     
 

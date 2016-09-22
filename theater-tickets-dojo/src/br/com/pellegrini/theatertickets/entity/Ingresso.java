@@ -39,5 +39,32 @@ public class Ingresso {
     public String toString() {
         return "Ingresso{" + "tipo=" + tipo + ", valor=" + valor + '}';
     }
+
+    @Override
+    public int hashCode() {
+        int hash = 7;
+        return hash;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final Ingresso other = (Ingresso) obj;
+        if (Float.floatToIntBits(this.valor) != Float.floatToIntBits(other.valor)) {
+            return false;
+        }
+        if (this.tipo != other.tipo) {
+            return false;
+        }
+        return true;
+    }
     
 }

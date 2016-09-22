@@ -20,6 +20,11 @@ public class TheaterTickets {
         
         Venda v = new Venda(data, TipoIngressoEnum.IDOSO, Boolean.FALSE);
         v.vender();
+        
+        System.out.println(v.getIngresso().toString());
+        System.out.println(v.getDesconto().toString());
+        System.out.println("Valor venda:" + v.getValorVenda());
+        
     }
         
     
