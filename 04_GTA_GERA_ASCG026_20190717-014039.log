@@ -1,0 +1,414 @@
+############################################################################################################################################
+###########################################################                #################################################################
+###########################################################   INICIO LOG   #################################################################
+###########################################################                #################################################################
+############################################################################################################################################
+
+
+[INFO]...17-07-2019 as 01:40:39...GERACAO DOS XML DE AGENDAS INFORMATIVAS INICIADO...
+
+[INFO]...17-07-2019 as 01:40:39...GERACAO COMPLETA - TRAVADOS + NAO TRAVADOS...
+17/07/2019 01:40:39 - Parametro 0 (Local Arquivo Configuração): config/application.properties
+17/07/2019 01:40:39 - Parametro 1 (Modo de Execução): 2 - Escrita
+17/07/2019 01:40:39 - Parametro 2 (Adq): 1
+17/07/2019 01:40:39 - Aplicação iniciada
+17/07/2019 01:40:39 - Rodando modo 2
+17/07/2019 01:40:39 - Parâmetros validados com sucesso. inicializando ambiente GTA...
+
+ _______                          _                   _________   _____  
+|_   __ \                        (_)                 |  _   _  | |_   _| 
+  | |__) |  _ .--.    .--.       __   .---.   .---.  |_/ | | \_|   | |   
+  |  ___/  [ `/'`\] / .'`\ \    [  | / /__\\ / /'`\]     | |       | |   
+ _| |_      | |     | \__. |  _  | | | \__., | \__.     _| |_     _| |_  
+|_____|    [___]     '.__.'  [ \_| |  '.__.' '.___.'   |_____|   |_____| 
+                              \____/                                     
+ 
+ .' ___  |  |  _   _  |      / \      
+/ .'   \_|  |_/ | | \_|     / _ \     
+| |   ____      | |        / ___ \    
+\ `.___]  |    _| |_     _/ /   \ \_  
+ `._____.'    |_____|   |____| |____| 
+                                      
+17/07/2019 01:40:40 - Starting Application v1.22 on GNCASNPL00786.getnet.local with PID 116078 (/data/processamento/GTA/VERSOES/gta-file-processor.jar started by jboss in /data/processamento/GTA)
+17/07/2019 01:40:40 - Running with Spring Boot v1.3.5.RELEASE, Spring v4.2.6.RELEASE
+17/07/2019 01:40:40 - No active profile set, falling back to default profiles: default
+17/07/2019 01:40:41 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+17/07/2019 01:40:46 - Started Application in 6.742 seconds (JVM running for 7.506)
+17/07/2019 01:40:46 - Ambiente GTA inicializado com sucesso. Carregando modo de execução...
+17/07/2019 01:40:46 - GTA.writer inicializado as 2019-07-17T01:40:46.891
+17/07/2019 01:40:47 - Foram encontrados 0 registros para o banco LEVYCAM CCV LTDA
+17/07/2019 01:40:47 - Foram encontrados 0 registros para o banco BCV
+17/07/2019 01:40:47 - Foram encontrados 0 registros para o banco BCO REP ORIENTAL URUGUAY BCE
+17/07/2019 01:40:47 - Foram encontrados 0 registros para o banco BEXS CC S.A.
+17/07/2019 01:40:49 - Foram encontrados 1036 registros para o banco BCO ARBI S.A.
+17/07/2019 01:40:50 - Consolidando arquivo ASCG026_10440482_20190717_01000. Para o banco: 213
+17/07/2019 01:40:51 - Arquivo ASCG026_10440482_20190717_01000 consolidado com sucesso. QtdFluxos = 1036
+17/07/2019 01:40:51 - Foram encontrados 0 registros para o banco INTESA SANPAOLO BRASIL S.A. BM
+17/07/2019 01:40:51 - Foram encontrados 0 registros para o banco BCO TRICURY S.A.
+17/07/2019 01:41:10 - Foram encontrados 199965 registros para o banco BCO SAFRA S.A.
+17/07/2019 01:41:18 - Consolidando arquivo ASCG026_10440482_20190717_01001. Para o banco: 422
+17/07/2019 01:41:19 - Arquivo ASCG026_10440482_20190717_01001 consolidado com sucesso. QtdFluxos = 50000
+17/07/2019 01:41:28 - Consolidando arquivo ASCG026_10440482_20190717_01002. Para o banco: 422
+17/07/2019 01:41:28 - Arquivo ASCG026_10440482_20190717_01002 consolidado com sucesso. QtdFluxos = 50000
+17/07/2019 01:41:38 - Consolidando arquivo ASCG026_10440482_20190717_01003. Para o banco: 422
+17/07/2019 01:41:39 - Arquivo ASCG026_10440482_20190717_01003 consolidado com sucesso. QtdFluxos = 50000
+17/07/2019 01:41:48 - Consolidando arquivo ASCG026_10440482_20190717_01004. Para o banco: 422
+17/07/2019 01:41:48 - Arquivo ASCG026_10440482_20190717_01004 consolidado com sucesso. QtdFluxos = 49965
+17/07/2019 01:41:49 - Foram encontrados 0 registros para o banco BCO INTERCAP S.A.
+17/07/2019 01:41:50 - Foram encontrados 1275 registros para o banco BCO FIBRA S.A.
+17/07/2019 01:41:51 - Consolidando arquivo ASCG026_10440482_20190717_01005. Para o banco: 224
+17/07/2019 01:41:51 - Arquivo ASCG026_10440482_20190717_01005 consolidado com sucesso. QtdFluxos = 1275
+17/07/2019 01:41:51 - Foram encontrados 0 registros para o banco BCO LUSO BRASILEIRO S.A.
+17/07/2019 01:41:51 - Foram encontrados 0 registros para o banco BANCO PAN
+17/07/2019 01:41:51 - Foram encontrados 0 registros para o banco BCO BRADESCO CARTOES S.A.
+17/07/2019 01:41:51 - Foram encontrados 0 registros para o banco BCO VOTORANTIM S.A.
+17/07/2019 01:41:51 - Foram encontrados 0 registros para o banco BCO ITAUBANK S.A.
+17/07/2019 01:41:51 - Foram encontrados 0 registros para o banco BCO TOKYO-MITSUBISHI UFJ S.A.
+17/07/2019 01:41:51 - Foram encontrados 0 registros para o banco BCO SUMITOMO MITSUI BRASIL S.A.
+17/07/2019 01:41:59 - Foram encontrados 367819 registros para o banco ITA?? UNIBANCO BM S.A.
+17/07/2019 01:42:09 - Consolidando arquivo ASCG026_10440482_20190717_01006. Para o banco: 341
+17/07/2019 01:42:10 - Arquivo ASCG026_10440482_20190717_01006 consolidado com sucesso. QtdFluxos = 50000
+17/07/2019 01:42:18 - Consolidando arquivo ASCG026_10440482_20190717_01007. Para o banco: 341
+17/07/2019 01:42:19 - Arquivo ASCG026_10440482_20190717_01007 consolidado com sucesso. QtdFluxos = 50000
+17/07/2019 01:42:28 - Consolidando arquivo ASCG026_10440482_20190717_01008. Para o banco: 341
+17/07/2019 01:42:28 - Arquivo ASCG026_10440482_20190717_01008 consolidado com sucesso. QtdFluxos = 50000
+17/07/2019 01:42:38 - Consolidando arquivo ASCG026_10440482_20190717_01009. Para o banco: 341
+17/07/2019 01:42:38 - Arquivo ASCG026_10440482_20190717_01009 consolidado com sucesso. QtdFluxos = 50000
+17/07/2019 01:42:47 - Consolidando arquivo ASCG026_10440482_20190717_01010. Para o banco: 341
+17/07/2019 01:42:48 - Arquivo ASCG026_10440482_20190717_01010 consolidado com sucesso. QtdFluxos = 50000
+17/07/2019 01:42:58 - Consolidando arquivo ASCG026_10440482_20190717_01011. Para o banco: 341
+17/07/2019 01:42:59 - Arquivo ASCG026_10440482_20190717_01011 consolidado com sucesso. QtdFluxos = 50000
+17/07/2019 01:43:08 - Consolidando arquivo ASCG026_10440482_20190717_01012. Para o banco: 341
+17/07/2019 01:43:09 - Arquivo ASCG026_10440482_20190717_01012 consolidado com sucesso. QtdFluxos = 50000
+17/07/2019 01:43:16 - Consolidando arquivo ASCG026_10440482_20190717_01013. Para o banco: 341
+17/07/2019 01:43:17 - Arquivo ASCG026_10440482_20190717_01013 consolidado com sucesso. QtdFluxos = 17819
+17/07/2019 01:43:25 - Foram encontrados 517371 registros para o banco BCO BRADESCO S.A.
+17/07/2019 01:43:36 - Consolidando arquivo ASCG026_10440482_20190717_01014. Para o banco: 237
+17/07/2019 01:43:37 - Arquivo ASCG026_10440482_20190717_01014 consolidado com sucesso. QtdFluxos = 50000
+17/07/2019 01:43:48 - Consolidando arquivo ASCG026_10440482_20190717_01015. Para o banco: 237
+17/07/2019 01:43:49 - Arquivo ASCG026_10440482_20190717_01015 consolidado com sucesso. QtdFluxos = 50000
+17/07/2019 01:44:01 - Consolidando arquivo ASCG026_10440482_20190717_01016. Para o banco: 237
+17/07/2019 01:44:01 - Arquivo ASCG026_10440482_20190717_01016 consolidado com sucesso. QtdFluxos = 50000
+17/07/2019 01:44:13 - Consolidando arquivo ASCG026_10440482_20190717_01017. Para o banco: 237
+17/07/2019 01:44:14 - Arquivo ASCG026_10440482_20190717_01017 consolidado com sucesso. QtdFluxos = 50000
+17/07/2019 01:44:26 - Consolidando arquivo ASCG026_10440482_20190717_01018. Para o banco: 237
+17/07/2019 01:44:27 - Arquivo ASCG026_10440482_20190717_01018 consolidado com sucesso. QtdFluxos = 50000
+17/07/2019 01:44:38 - Consolidando arquivo ASCG026_10440482_20190717_01019. Para o banco: 237
+17/07/2019 01:44:39 - Arquivo ASCG026_10440482_20190717_01019 consolidado com sucesso. QtdFluxos = 50000
+17/07/2019 01:44:50 - Consolidando arquivo ASCG026_10440482_20190717_01020. Para o banco: 237
+17/07/2019 01:44:51 - Arquivo ASCG026_10440482_20190717_01020 consolidado com sucesso. QtdFluxos = 50000
+17/07/2019 01:45:03 - Consolidando arquivo ASCG026_10440482_20190717_01021. Para o banco: 237
+17/07/2019 01:45:03 - Arquivo ASCG026_10440482_20190717_01021 consolidado com sucesso. QtdFluxos = 50000
+17/07/2019 01:45:17 - Consolidando arquivo ASCG026_10440482_20190717_01022. Para o banco: 237
+17/07/2019 01:45:18 - Arquivo ASCG026_10440482_20190717_01022 consolidado com sucesso. QtdFluxos = 50000
+17/07/2019 01:45:30 - Consolidando arquivo ASCG026_10440482_20190717_01023. Para o banco: 237
+17/07/2019 01:45:30 - Arquivo ASCG026_10440482_20190717_01023 consolidado com sucesso. QtdFluxos = 50000
+17/07/2019 01:45:40 - Consolidando arquivo ASCG026_10440482_20190717_01024. Para o banco: 237
+17/07/2019 01:45:41 - Arquivo ASCG026_10440482_20190717_01024 consolidado com sucesso. QtdFluxos = 17371
+17/07/2019 01:45:41 - Foram encontrados 0 registros para o banco BCO PECUNIA S.A.
+17/07/2019 01:45:41 - Foram encontrados 0 registros para o banco ITA?? UNIBANCO HOLDING BM S.A.
+17/07/2019 01:45:42 - Foram encontrados 12653 registros para o banco BCO SOFISA S.A.
+17/07/2019 01:45:44 - Consolidando arquivo ASCG026_10440482_20190717_01025. Para o banco: 637
+17/07/2019 01:45:44 - Arquivo ASCG026_10440482_20190717_01025 consolidado com sucesso. QtdFluxos = 12653
+17/07/2019 01:45:44 - Foram encontrados 0 registros para o banco BCO INDUSVAL S.A.
+17/07/2019 01:45:44 - Foram encontrados 0 registros para o banco BCO CREFISA S.A.
+17/07/2019 01:45:44 - Foram encontrados 0 registros para o banco BCO MIZUHO S.A.
+17/07/2019 01:45:44 - Foram encontrados 0 registros para o banco BANCO INVESTCRED UNIBANCO S.A.
+17/07/2019 01:45:44 - Foram encontrados 0 registros para o banco BCO BMG S.A.
+17/07/2019 01:45:44 - Foram encontrados 0 registros para o banco BCO FICSA S.A.
+17/07/2019 01:45:44 - Foram encontrados 0 registros para o banco BCO SOCIETE GENERALE BRASIL
+17/07/2019 01:45:44 - Foram encontrados 0 registros para o banco MAGLIANO S.A. CCVM
+17/07/2019 01:45:44 - Foram encontrados 0 registros para o banco TULLETT PREBON BRASIL CVC LTDA
+17/07/2019 01:45:44 - Foram encontrados 0 registros para o banco C.SUISSE HEDGING-GRIFFO CV S/A
+17/07/2019 01:45:45 - Foram encontrados 444 registros para o banco BCO PAULISTA S.A.
+17/07/2019 01:45:46 - Consolidando arquivo ASCG026_10440482_20190717_01026. Para o banco: 611
+17/07/2019 01:45:46 - Arquivo ASCG026_10440482_20190717_01026 consolidado com sucesso. QtdFluxos = 444
+17/07/2019 01:45:46 - Foram encontrados 0 registros para o banco BOFA MERRILL LYNCH BM S.A.
+17/07/2019 01:45:48 - Foram encontrados 577 registros para o banco CCR REG MOGIANA
+17/07/2019 01:45:49 - Consolidando arquivo ASCG026_10440482_20190717_01027. Para o banco: 89
+17/07/2019 01:45:49 - Arquivo ASCG026_10440482_20190717_01027 consolidado com sucesso. QtdFluxos = 577
+17/07/2019 01:45:50 - Foram encontrados 210 registros para o banco BCO PINE S.A.
+17/07/2019 01:45:52 - Consolidando arquivo ASCG026_10440482_20190717_01028. Para o banco: 643
+17/07/2019 01:45:52 - Arquivo ASCG026_10440482_20190717_01028 consolidado com sucesso. QtdFluxos = 210
+17/07/2019 01:45:52 - Foram encontrados 0 registros para o banco EASYNVEST - T??TULO CV SA
+17/07/2019 01:45:58 - Foram encontrados 31952 registros para o banco BCO DAYCOVAL S.A
+17/07/2019 01:46:04 - Consolidando arquivo ASCG026_10440482_20190717_01029. Para o banco: 707
+17/07/2019 01:46:05 - Arquivo ASCG026_10440482_20190717_01029 consolidado com sucesso. QtdFluxos = 31952
+17/07/2019 01:46:05 - Foram encontrados 0 registros para o banco RENASCENCA DTVM LTDA
+17/07/2019 01:46:05 - Foram encontrados 0 registros para o banco DEUTSCHE BANK S.A.BCO ALEMAO
+17/07/2019 01:46:05 - Foram encontrados 0 registros para o banco BANCO CIFRA
+17/07/2019 01:46:05 - Foram encontrados 0 registros para o banco GUIDE
+17/07/2019 01:46:05 - Foram encontrados 0 registros para o banco S. HAYATA CC S.A.
+17/07/2019 01:46:05 - Foram encontrados 0 registros para o banco BCO RENDIMENTO S.A.
+17/07/2019 01:46:05 - Foram encontrados 0 registros para o banco BANCO BONSUCESSO S.A.
+17/07/2019 01:46:05 - Foram encontrados 0 registros para o banco BCO OL?? BONSUCESSO CONSIGNADO S.A.
+17/07/2019 01:46:05 - Foram encontrados 0 registros para o banco CCCM SICOOB UNIMAIS
+17/07/2019 01:46:05 - Foram encontrados 0 registros para o banco B e T ASSOCIADOS CC LTDA.
+17/07/2019 01:46:05 - Foram encontrados 0 registros para o banco NOVO BCO CONTINENTAL S.A. - BM
+17/07/2019 01:46:05 - Foram encontrados 0 registros para o banco BCO CR??DIT AGRICOLE BR S.A.
+17/07/2019 01:46:05 - Foram encontrados 0 registros para o banco BANCO SISTEMA
+17/07/2019 01:46:05 - Foram encontrados 0 registros para o banco CREDIALIAN??A CCR
+17/07/2019 01:46:05 - Foram encontrados 0 registros para o banco BCO VR S.A.
+17/07/2019 01:46:05 - Foram encontrados 0 registros para o banco BCO OURINVEST S.A.
+17/07/2019 01:46:05 - Foram encontrados 0 registros para o banco CREDICOAMO
+17/07/2019 01:46:05 - Foram encontrados 0 registros para o banco BANCO JOHN DEERE S.A.
+17/07/2019 01:46:06 - Foram encontrados 9550 registros para o banco BCO DO ESTADO DO RS S.A.
+17/07/2019 01:46:08 - Consolidando arquivo ASCG026_10440482_20190717_01030. Para o banco: 41
+17/07/2019 01:46:09 - Arquivo ASCG026_10440482_20190717_01030 consolidado com sucesso. QtdFluxos = 9550
+17/07/2019 01:46:09 - Foram encontrados 0 registros para o banco ADVANCED CC LTDA
+17/07/2019 01:46:09 - Foram encontrados 0 registros para o banco BCO A.J. RENNER S.A.
+17/07/2019 01:46:09 - Foram encontrados 0 registros para o banco BANCO ORIGINAL
+17/07/2019 01:46:10 - Foram encontrados 69155 registros para o banco SICREDI
+17/07/2019 01:46:15 - Consolidando arquivo ASCG026_10440482_20190717_01031. Para o banco: 748
+17/07/2019 01:46:15 - Arquivo ASCG026_10440482_20190717_01031 consolidado com sucesso. QtdFluxos = 50000
+17/07/2019 01:46:18 - Consolidando arquivo ASCG026_10440482_20190717_01032. Para o banco: 748
+17/07/2019 01:46:18 - Arquivo ASCG026_10440482_20190717_01032 consolidado com sucesso. QtdFluxos = 19155
+17/07/2019 01:46:26 - Foram encontrados 548236 registros para o banco BCO DO BRASIL S.A.
+17/07/2019 01:46:37 - Consolidando arquivo ASCG026_10440482_20190717_01033. Para o banco: 1
+17/07/2019 01:46:37 - Arquivo ASCG026_10440482_20190717_01033 consolidado com sucesso. QtdFluxos = 50000
+17/07/2019 01:46:49 - Consolidando arquivo ASCG026_10440482_20190717_01034. Para o banco: 1
+17/07/2019 01:46:49 - Arquivo ASCG026_10440482_20190717_01034 consolidado com sucesso. QtdFluxos = 50000
+17/07/2019 01:47:01 - Consolidando arquivo ASCG026_10440482_20190717_01035. Para o banco: 1
+17/07/2019 01:47:02 - Arquivo ASCG026_10440482_20190717_01035 consolidado com sucesso. QtdFluxos = 50000
+17/07/2019 01:47:14 - Consolidando arquivo ASCG026_10440482_20190717_01036. Para o banco: 1
+17/07/2019 01:47:15 - Arquivo ASCG026_10440482_20190717_01036 consolidado com sucesso. QtdFluxos = 50000
+17/07/2019 01:47:28 - Consolidando arquivo ASCG026_10440482_20190717_01037. Para o banco: 1
+17/07/2019 01:47:28 - Arquivo ASCG026_10440482_20190717_01037 consolidado com sucesso. QtdFluxos = 50000
+17/07/2019 01:47:41 - Consolidando arquivo ASCG026_10440482_20190717_01038. Para o banco: 1
+17/07/2019 01:47:42 - Arquivo ASCG026_10440482_20190717_01038 consolidado com sucesso. QtdFluxos = 50000
+17/07/2019 01:47:55 - Consolidando arquivo ASCG026_10440482_20190717_01039. Para o banco: 1
+17/07/2019 01:47:56 - Arquivo ASCG026_10440482_20190717_01039 consolidado com sucesso. QtdFluxos = 50000
+17/07/2019 01:48:07 - Consolidando arquivo ASCG026_10440482_20190717_01040. Para o banco: 1
+17/07/2019 01:48:08 - Arquivo ASCG026_10440482_20190717_01040 consolidado com sucesso. QtdFluxos = 50000
+17/07/2019 01:48:18 - Consolidando arquivo ASCG026_10440482_20190717_01041. Para o banco: 1
+17/07/2019 01:48:19 - Arquivo ASCG026_10440482_20190717_01041 consolidado com sucesso. QtdFluxos = 50000
+17/07/2019 01:48:32 - Consolidando arquivo ASCG026_10440482_20190717_01042. Para o banco: 1
+17/07/2019 01:48:33 - Arquivo ASCG026_10440482_20190717_01042 consolidado com sucesso. QtdFluxos = 50000
+17/07/2019 01:48:47 - Consolidando arquivo ASCG026_10440482_20190717_01043. Para o banco: 1
+17/07/2019 01:48:48 - Arquivo ASCG026_10440482_20190717_01043 consolidado com sucesso. QtdFluxos = 48236
+17/07/2019 01:48:50 - Foram encontrados 409 registros para o banco BRB - BCO DE BRASILIA S.A.
+17/07/2019 01:48:52 - Consolidando arquivo ASCG026_10440482_20190717_01044. Para o banco: 70
+17/07/2019 01:48:52 - Arquivo ASCG026_10440482_20190717_01044 consolidado com sucesso. QtdFluxos = 409
+17/07/2019 01:48:52 - Foram encontrados 0 registros para o banco BANCO NEON S.A.
+17/07/2019 01:48:58 - Foram encontrados 4224 registros para o banco CONF NAC COOP CENTRAIS UNICRED
+17/07/2019 01:49:04 - Consolidando arquivo ASCG026_10440482_20190717_01045. Para o banco: 136
+17/07/2019 01:49:04 - Arquivo ASCG026_10440482_20190717_01045 consolidado com sucesso. QtdFluxos = 4224
+17/07/2019 01:49:12 - Foram encontrados 228535 registros para o banco CAIXA ECONOMICA FEDERAL
+17/07/2019 01:49:22 - Consolidando arquivo ASCG026_10440482_20190717_01046. Para o banco: 104
+17/07/2019 01:49:23 - Arquivo ASCG026_10440482_20190717_01046 consolidado com sucesso. QtdFluxos = 50000
+17/07/2019 01:49:33 - Consolidando arquivo ASCG026_10440482_20190717_01047. Para o banco: 104
+17/07/2019 01:49:34 - Arquivo ASCG026_10440482_20190717_01047 consolidado com sucesso. QtdFluxos = 50000
+17/07/2019 01:49:46 - Consolidando arquivo ASCG026_10440482_20190717_01048. Para o banco: 104
+17/07/2019 01:49:46 - Arquivo ASCG026_10440482_20190717_01048 consolidado com sucesso. QtdFluxos = 50000
+17/07/2019 01:49:57 - Consolidando arquivo ASCG026_10440482_20190717_01049. Para o banco: 104
+17/07/2019 01:49:58 - Arquivo ASCG026_10440482_20190717_01049 consolidado com sucesso. QtdFluxos = 50000
+17/07/2019 01:50:08 - Consolidando arquivo ASCG026_10440482_20190717_01050. Para o banco: 104
+17/07/2019 01:50:08 - Arquivo ASCG026_10440482_20190717_01050 consolidado com sucesso. QtdFluxos = 28535
+17/07/2019 01:50:10 - Foram encontrados 459 registros para o banco BANCO INTERMEDIUM S/A
+17/07/2019 01:50:12 - Consolidando arquivo ASCG026_10440482_20190717_01051. Para o banco: 77
+17/07/2019 01:50:12 - Arquivo ASCG026_10440482_20190717_01051 consolidado com sucesso. QtdFluxos = 459
+17/07/2019 01:50:14 - Foram encontrados 3101 registros para o banco BCO RIBEIRAO PRETO S.A.
+17/07/2019 01:50:16 - Consolidando arquivo ASCG026_10440482_20190717_01052. Para o banco: 741
+17/07/2019 01:50:16 - Arquivo ASCG026_10440482_20190717_01052 consolidado com sucesso. QtdFluxos = 3101
+17/07/2019 01:50:16 - Foram encontrados 0 registros para o banco BCO CETELEM S.A.
+17/07/2019 01:50:17 - Foram encontrados 22 registros para o banco BANCO SEMEAR
+17/07/2019 01:50:19 - Consolidando arquivo ASCG026_10440482_20190717_01053. Para o banco: 743
+17/07/2019 01:50:19 - Arquivo ASCG026_10440482_20190717_01053 consolidado com sucesso. QtdFluxos = 22
+17/07/2019 01:50:19 - Foram encontrados 0 registros para o banco PLANNER CV S.A.
+17/07/2019 01:50:19 - Foram encontrados 0 registros para o banco BANCO BM FBOVESPA
+17/07/2019 01:50:19 - Foram encontrados 0 registros para o banco BCO RABOBANK INTL BRASIL S.A.
+17/07/2019 01:50:19 - Foram encontrados 0 registros para o banco BCO BNP PARIBAS BRASIL S A
+17/07/2019 01:50:19 - Foram encontrados 0 registros para o banco CCCM UNICRED CENTRAL RS
+17/07/2019 01:50:19 - Foram encontrados 0 registros para o banco KIRTON BANK
+17/07/2019 01:50:19 - Foram encontrados 0 registros para o banco PORTOCRED S.A. - CFI
+17/07/2019 01:50:20 - Foram encontrados 14643 registros para o banco BANCOOB
+17/07/2019 01:50:23 - Consolidando arquivo ASCG026_10440482_20190717_01054. Para o banco: 756
+17/07/2019 01:50:23 - Arquivo ASCG026_10440482_20190717_01054 consolidado com sucesso. QtdFluxos = 14643
+17/07/2019 01:50:23 - Foram encontrados 0 registros para o banco BCO KEB HANA DO BRASIL S.A.
+17/07/2019 01:50:23 - Foram encontrados 0 registros para o banco XP INVESTIMENTOS CCTVM S/A
+17/07/2019 01:50:25 - Foram encontrados 1095 registros para o banco UNIPRIME NORTE DO PARAN??
+17/07/2019 01:50:27 - Consolidando arquivo ASCG026_10440482_20190717_01055. Para o banco: 84
+17/07/2019 01:50:27 - Arquivo ASCG026_10440482_20190717_01055 consolidado com sucesso. QtdFluxos = 1095
+17/07/2019 01:50:27 - Foram encontrados 0 registros para o banco CM CAPITAL MARKETS CCTVM LTDA
+17/07/2019 01:50:27 - Foram encontrados 0 registros para o banco BCO MORGAN STANLEY S.A.
+17/07/2019 01:50:27 - Foram encontrados 0 registros para o banco UBS BRASIL CCTVM S.A.
+17/07/2019 01:50:27 - Foram encontrados 0 registros para o banco TREVISO CC S.A.
+17/07/2019 01:50:27 - Foram encontrados 0 registros para o banco HIPERCARD BM S.A.
+17/07/2019 01:50:27 - Foram encontrados 0 registros para o banco BCO. J.SAFRA S.A.
+17/07/2019 01:50:27 - Foram encontrados 0 registros para o banco UNIPRIME CENTRAL CCC LTDA.
+17/07/2019 01:50:28 - Foram encontrados 8229 registros para o banco BCO ALFA S.A.
+17/07/2019 01:50:30 - Consolidando arquivo ASCG026_10440482_20190717_01056. Para o banco: 25
+17/07/2019 01:50:31 - Arquivo ASCG026_10440482_20190717_01056 consolidado com sucesso. QtdFluxos = 8229
+17/07/2019 01:50:31 - Foram encontrados 0 registros para o banco BCO ABN AMRO S.A.
+17/07/2019 01:50:31 - Foram encontrados 0 registros para o banco BCO CARGILL S.A.
+17/07/2019 01:50:31 - Foram encontrados 0 registros para o banco BANCO BRADESCARD
+17/07/2019 01:50:31 - Foram encontrados 0 registros para o banco NOVA FUTURA CTVM LTDA.
+17/07/2019 01:50:31 - Foram encontrados 0 registros para o banco GOLDMAN SACHS DO BRASIL BM S.A
+17/07/2019 01:50:31 - Foram encontrados 0 registros para o banco CCC NOROESTE BRASILEIRO LTDA.
+17/07/2019 01:50:31 - Foram encontrados 0 registros para o banco CCM DESP TR??NS SC E RS
+17/07/2019 01:50:31 - Foram encontrados 0 registros para o banco BANCO INBURSA DE INVESTIMENTOS S.A.
+17/07/2019 01:50:32 - Foram encontrados 62 registros para o banco BCO DA AMAZONIA S.A.
+17/07/2019 01:50:33 - Consolidando arquivo ASCG026_10440482_20190717_01057. Para o banco: 3
+17/07/2019 01:50:33 - Arquivo ASCG026_10440482_20190717_01057 consolidado com sucesso. QtdFluxos = 62
+17/07/2019 01:50:33 - Foram encontrados 0 registros para o banco CONFIDENCE CC S.A.
+17/07/2019 01:50:33 - Foram encontrados 0 registros para o banco BCO DO EST. DO PA S.A.
+17/07/2019 01:50:33 - Foram encontrados 0 registros para o banco CCC URBANO
+17/07/2019 01:50:33 - Foram encontrados 0 registros para o banco CENTRAL CECM ESP. SANTO
+17/07/2019 01:50:33 - Foram encontrados 0 registros para o banco BCO BBI S.A.
+17/07/2019 01:50:33 - Foram encontrados 0 registros para o banco BCO BRADESCO FINANC. S.A.
+17/07/2019 01:50:35 - Foram encontrados 997 registros para o banco BCO DO NORDESTE DO BRASIL S.A.
+17/07/2019 01:50:36 - Consolidando arquivo ASCG026_10440482_20190717_01058. Para o banco: 4
+17/07/2019 01:50:36 - Arquivo ASCG026_10440482_20190717_01058 consolidado com sucesso. QtdFluxos = 997
+17/07/2019 01:50:36 - Foram encontrados 0 registros para o banco BCO CCB BRASIL S.A.
+17/07/2019 01:50:36 - Foram encontrados 0 registros para o banco HS FINANCEIRA
+17/07/2019 01:50:36 - Foram encontrados 0 registros para o banco LECCA CFI S.A.
+17/07/2019 01:50:36 - Foram encontrados 0 registros para o banco BCO KDB BRASIL S.A.
+17/07/2019 01:50:41 - Foram encontrados 5284 registros para o banco BANCO TOP??ZIO S.A.
+17/07/2019 01:50:47 - Consolidando arquivo ASCG026_10440482_20190717_01059. Para o banco: 82
+17/07/2019 01:50:47 - Arquivo ASCG026_10440482_20190717_01059 consolidado com sucesso. QtdFluxos = 5284
+17/07/2019 01:50:47 - Foram encontrados 0 registros para o banco P??LOCRED SCMEPP LTDA.
+17/07/2019 01:50:47 - Foram encontrados 0 registros para o banco ICAP DO BRASIL CTVM LTDA.
+17/07/2019 01:50:47 - Foram encontrados 0 registros para o banco SOCRED S.A. SCM
+17/07/2019 01:50:47 - Foram encontrados 0 registros para o banco NATIXIS BRASIL S.A. BM
+17/07/2019 01:50:47 - Foram encontrados 0 registros para o banco CARUANA SCFI
+17/07/2019 01:50:47 - Foram encontrados 0 registros para o banco CODEPE CVC S.A.
+17/07/2019 01:50:47 - Foram encontrados 0 registros para o banco BCO ORIGINAL DO AGRO S/A
+17/07/2019 01:50:47 - Foram encontrados 0 registros para o banco BBN BCO BRASILEIRO DE NEGOCIOS S.A.
+17/07/2019 01:50:47 - Foram encontrados 0 registros para o banco CONFEDERACAO NAC DAS CCC SOL
+17/07/2019 01:50:47 - Foram encontrados 0 registros para o banco BCO AGIPLAN S.A.
+17/07/2019 01:50:47 - Foram encontrados 0 registros para o banco BCO DA CHINA BRASIL S.A.
+17/07/2019 01:50:47 - Foram encontrados 0 registros para o banco GET MONEY CC LTDA
+17/07/2019 01:50:47 - Foram encontrados 0 registros para o banco BCO BANDEPE S.A.
+17/07/2019 01:50:47 - Foram encontrados 0 registros para o banco BCO CONFIDENCE DE C??MBIO S.A.
+17/07/2019 01:50:47 - Foram encontrados 0 registros para o banco BANCO FINAXIS
+17/07/2019 01:50:47 - Foram encontrados 0 registros para o banco STANDARD CHARTERED BI S.A.
+17/07/2019 01:50:47 - Foram encontrados 0 registros para o banco MULTIMONEY CC LTDA.
+17/07/2019 01:50:47 - Foram encontrados 0 registros para o banco BRICKELL S.A. CFI
+17/07/2019 01:50:47 - Foram encontrados 0 registros para o banco BCO DO EST. DE SE S.A.
+17/07/2019 01:50:47 - Foram encontrados 0 registros para o banco BEXS BCO DE CAMBIO S.A.
+17/07/2019 01:50:47 - Foram encontrados 0 registros para o banco BR PARTNERS BI
+17/07/2019 01:50:47 - Foram encontrados 0 registros para o banco RICO CTVM S.A.
+17/07/2019 01:50:47 - Foram encontrados 0 registros para o banco BRL TRUST DTVM SA
+17/07/2019 01:50:47 - Foram encontrados 0 registros para o banco BCO WESTERN UNION
+17/07/2019 01:50:47 - Foram encontrados 0 registros para o banco PARANA BCO S.A.
+17/07/2019 01:50:47 - Foram encontrados 0 registros para o banco BCO BBM S.A.
+17/07/2019 01:50:47 - Foram encontrados 0 registros para o banco BCO CAPITAL S.A.
+17/07/2019 01:50:47 - Foram encontrados 0 registros para o banco BCO WOORI BANK DO BRASIL S.A.
+17/07/2019 01:50:47 - Foram encontrados 0 registros para o banco FACTA S.A. CFI
+17/07/2019 01:50:47 - Foram encontrados 0 registros para o banco BROKER BRASIL CC LTDA.
+17/07/2019 01:50:48 - Foram encontrados 78 registros para o banco BCO MERCANTIL DO BRASIL S.A.
+17/07/2019 01:50:49 - Consolidando arquivo ASCG026_10440482_20190717_01060. Para o banco: 389
+17/07/2019 01:50:49 - Arquivo ASCG026_10440482_20190717_01060 consolidado com sucesso. QtdFluxos = 78
+17/07/2019 01:50:49 - Foram encontrados 0 registros para o banco BCO ITA?? BBA S.A.
+17/07/2019 01:50:54 - Foram encontrados 33845 registros para o banco BCO TRIANGULO S.A.
+17/07/2019 01:51:02 - Consolidando arquivo ASCG026_10440482_20190717_01061. Para o banco: 634
+17/07/2019 01:51:02 - Arquivo ASCG026_10440482_20190717_01061 consolidado com sucesso. QtdFluxos = 33845
+17/07/2019 01:51:02 - Foram encontrados 0 registros para o banco SENSO CCVM S.A.
+17/07/2019 01:51:02 - Foram encontrados 0 registros para o banco ICBC DO BRASIL BM S.A.
+17/07/2019 01:51:02 - Foram encontrados 0 registros para o banco UBS BRASIL BI S.A.
+17/07/2019 01:51:02 - Foram encontrados 0 registros para o banco MS BANK S.A. BCO DE C??MBIO
+17/07/2019 01:51:02 - Foram encontrados 0 registros para o banco COMMERZBANK BRASIL S.A. - BCO M??LTIPLO
+17/07/2019 01:51:02 - Foram encontrados 0 registros para o banco GUITTA CC LTDA
+17/07/2019 01:51:02 - Foram encontrados 0 registros para o banco BCO BANESTES S.A.
+17/07/2019 01:51:07 - Foram encontrados 24092 registros para o banco BCO ABC BRASIL S.A.
+17/07/2019 01:51:14 - Consolidando arquivo ASCG026_10440482_20190717_01062. Para o banco: 246
+17/07/2019 01:51:14 - Arquivo ASCG026_10440482_20190717_01062 consolidado com sucesso. QtdFluxos = 24092
+17/07/2019 01:51:14 - Foram encontrados 0 registros para o banco SCOTIABANK BRASIL
+17/07/2019 01:51:14 - Foram encontrados 0 registros para o banco BANCO BTG PACTUAL S.A.
+17/07/2019 01:51:14 - Foram encontrados 0 registros para o banco BCO MODAL S.A.
+17/07/2019 01:51:14 - Foram encontrados 0 registros para o banco BCO CLASSICO S.A.
+17/07/2019 01:51:15 - Foram encontrados 157 registros para o banco BCO GUANABARA S.A.
+17/07/2019 01:51:17 - Consolidando arquivo ASCG026_10440482_20190717_01063. Para o banco: 612
+17/07/2019 01:51:17 - Arquivo ASCG026_10440482_20190717_01063 consolidado com sucesso. QtdFluxos = 157
+17/07/2019 01:51:18 - Foram encontrados 366 registros para o banco BCO INDUSTRIAL DO BRASIL S.A.
+17/07/2019 01:51:19 - Consolidando arquivo ASCG026_10440482_20190717_01064. Para o banco: 604
+17/07/2019 01:51:19 - Arquivo ASCG026_10440482_20190717_01064 consolidado com sucesso. QtdFluxos = 366
+17/07/2019 01:51:19 - Foram encontrados 0 registros para o banco BCO CREDIT SUISSE (BRL) S.A.
+17/07/2019 01:51:19 - Foram encontrados 0 registros para o banco BCO LA NACION ARGENTINA
+17/07/2019 01:51:19 - Foram encontrados 0 registros para o banco CITIBANK N.A.
+17/07/2019 01:51:19 - Foram encontrados 0 registros para o banco BCO CEDULA S.A.
+17/07/2019 01:51:19 - Foram encontrados 0 registros para o banco BCO BRADESCO BERJ S.A.
+17/07/2019 01:51:19 - Foram encontrados 0 registros para o banco BCO J.P. MORGAN S.A.
+17/07/2019 01:51:19 - Foram encontrados 0 registros para o banco BCO CACIQUE S.A.
+17/07/2019 01:51:19 - Foram encontrados 0 registros para o banco BCO CAIXA GERAL BRASIL S.A.
+17/07/2019 01:51:20 - Foram encontrados 19993 registros para o banco BCO CITIBANK S.A.
+17/07/2019 01:51:23 - Consolidando arquivo ASCG026_10440482_20190717_01065. Para o banco: 745
+17/07/2019 01:51:23 - Arquivo ASCG026_10440482_20190717_01065 consolidado com sucesso. QtdFluxos = 19993
+17/07/2019 01:51:23 - Foram encontrados 0 registros para o banco BCO BOAVISTA INTERATLANTICO S.A.
+17/07/2019 01:51:23 - Foram encontrados 0 registros para o banco BCO RODOBENS S.A.
+17/07/2019 01:51:23 - Foram encontrados 0 registros para o banco BCO FATOR S.A.
+17/07/2019 01:51:23 - Foram encontrados 0 registros para o banco BNDES
+17/07/2019 01:51:23 - Foram encontrados 0 registros para o banco BGC LIQUIDEZ DTVM LTDA
+17/07/2019 01:51:23 - Foram encontrados 0 registros para o banco BCO ALVORADA S.A.
+17/07/2019 01:51:23 - Foram encontrados 0 registros para o banco BANIF BRASIL BM S.A.
+17/07/2019 01:51:23 - Foram encontrados 0 registros para o banco GRADUAL CCTVM S.A.
+17/07/2019 01:51:24 - Foram encontrados 985 registros para o banco BCO M??XIMA S.A.
+17/07/2019 01:51:25 - Consolidando arquivo ASCG026_10440482_20190717_01066. Para o banco: 243
+17/07/2019 01:51:25 - Arquivo ASCG026_10440482_20190717_01066 consolidado com sucesso. QtdFluxos = 985
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco HAITONG BI DO BRASIL S.A.
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco OLIVEIRA TRUST DTVM S.A.
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco BNY MELLON BCO S.A.
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco BCO LA PROVINCIA B AIRES BCE
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco BRASIL PLURAL S.A. BCO.
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco JPMORGAN CHASE BANK
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco BANCO ANDBANK (BRASIL) S.A.
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco ING BANK N.V.
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco CASA CREDITO S.A. SCM
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco ALBATROSS CCV S.A
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco DACASA FINANCEIRA S/A - SCFI
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco ATIVA S.A. INVESTIMENTOS CCTVM
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco FAIR CC S.A.
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco BANCO DO ESTADO DE SANTA CATAR
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco BANCO DO ESTADO DA BAHIA SA
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco BANCO PARAIBAN BCO DO EST.DA P
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco BANCO DO ESTADO DE GOIAS SA
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco BANCO DO ESTADO DO CEARA SA
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco BANCO DO ESTADO DO PARANA SA
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco BANCO DOESTADO DO PIAUI SA
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco BANCO BEMGE SA
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco BANCO ITABANCO SA
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco BANCO CREDIBANCO SA
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco Bank of America Brasil S.A
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco CAIXA ECON ESTADUAL DE SAO PAU
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco HSBC Investiment Bank Brasil S.A. 
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco BANCO CONTINENTAL SA
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco BANCO FICRISA AXELRUD SA
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco DRESDNER BANK LATEINAMERIKA SA
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco BANCO SISTEMA SA
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco BANCO DIBENS SA
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco BANCO AMERICA DO SUL SA
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco BANCO REGIONAL MALCON SA
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco BANCO DE CREDITO DE SAO PAULO
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco BANCO BRASCAN SA
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco BANCO CRUZEIRO SA
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco BANCO BOA VISTA INTERATLANTICO
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco BANCO LIBERAL SA
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco BANCO EUROINVEST SA
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco BANCO CIDADE SA
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco BANCO WARBUG DILLON READ SA
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco BANCO FININVEST SA
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco BANCO INDUSCRED SA
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco BANCO COMERCIAL E CREDITO CONS
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco BANCO REAL SA
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco BCN S/A
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco BANCO SUDAMERIS BRASIL SA
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco BANCO BOZANO SIMONSEN SA
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco SANTANDER
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco BANCO REAL S.A.
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco BANCO MERCANTIL FINASA SA
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco UNIBANCO
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco BANCO NACIONAL SA
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco BANCO SANTANDER NOROESTE SA
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco BANCO RURAL SA
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco BANCO GERDAU S.A
+17/07/2019 01:51:25 - Foram encontrados 0 registros para o banco BR BANCO MERCANTIL SA
+17/07/2019 01:51:25 - GTA.writer finalizado com SUCESSO as 2019-07-17T01:51:25.971
+
+[INFO]...17-07-2019 as 01:51:26...FINALIZADA A GERACAO DOS ARQUIVOS ASCG026...
+
+[INFO]...17-07-2019 as 01:51:26...PROCESSO CONCLUIDO COM SUCESSO...
+############################################################################################################################################
+###########################################################                #################################################################
+###########################################################    FIM  LOG    #################################################################
+###########################################################                #################################################################
+############################################################################################################################################
